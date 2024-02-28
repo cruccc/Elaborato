@@ -1,0 +1,101 @@
+label{
+	float: right;
+	margin-top: 4px;
+}
+
+@media only screen and (max-width: 575px) {
+	label{
+		float: left;
+		margin-left: 20px;
+	}
+	input,select{
+		margin-left: 30px;
+	}
+}
+
+small{
+	margin-left: 5px;
+}
+
+.submit-button{
+	background-color: black;
+	border: 2px solid black;
+	color: white;
+	height: 40px;
+	text-align: center;
+}
+
+.canc-button{
+	background-color: red;
+	border: 2px solid red;
+	color: white;
+	height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.spazio-sotto{
+	margin-bottom: 100px
+}
+
+.container-form{
+	border: 1px solid black;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+a.link-black{
+	color: black;
+	text-decoration: none;
+}
+
+a.link-black:hover{
+	color: black;
+	text-decoration: none;
+}
+
+a.link-white{
+	color: white;
+	text-decoration: none;
+}
+
+a.link-white:hover{
+	color: white;
+	text-decoration: none;
+}
+
+hr{
+	background-color: #999;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+input,select{
+	width: 196px;
+	height: 28px;
+}
+
+input[type=file]{
+	width: 100%;
+}
+
+.immagine{
+	width: 100%;
+	height: 150px;
+	object-fit: contain;
+}
+
+.footer{
+	padding-bottom: 0px !important;
+}
+
+.indentato{
+	margin-left: 20px;
+}
+
+.carrello-quantita{
+	margin: 0px 2px;
+}
